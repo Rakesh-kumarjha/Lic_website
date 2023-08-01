@@ -1,0 +1,14 @@
+.carousel-container {
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .carousel-slide {
+    flex: 0 0 100%; /* Each slide occupies the full width of the container */
+    min-width: 100%; /* Prevents slides from shrinking beyond the container width */
+  }
