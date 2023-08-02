@@ -22,7 +22,7 @@ import Term from "./component/Term";
 import Licagent from './component/Licagent';
 import Apply_Online from './component/Apply_Online';
 import Footer from "./component/Footer";
-
+import AutoPlayCarousel from "./component/AutoPlayCarousel"
 
 
 
@@ -47,6 +47,7 @@ function App() {
   <Route path='/Policy' element={<Policy/>}/>
   <Route path='/Term' element={<Term/>}/>
   <Route path='/Licagent' element={<Licagent/>}/>
+  <Route path='/AutoPlay' element={<AutoPlayCarousel/>}/>
 
    </Routes>
    <Footer/>

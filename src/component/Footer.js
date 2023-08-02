@@ -92,28 +92,33 @@ We are humbled by the magnitude of the responsibility we carry and realise the l
                     </Link>
 
                     <p className='colors '>
-                      <Link  to="tel:9108166068" className='no-underline'> 
-                      <IoMdCall/> <p className='text-white ml-5 -mt-5'> 9108166068</p>
+                      <Link  to="tel:9108166064" className='no-underline'> 
+                      <IoMdCall/> <p className='text-white ml-5 -mt-5'> 9108166064</p>
+                      </Link>
+                    </p>
+                    <p className='colors '>
+                      <Link  to="tel:8095882225" className='no-underline'> 
+                      <IoMdCall/> <p className='text-white ml-5 -mt-5'> 8095882225</p>
                       </Link>
                     </p>
                     <p className='colors'>
                       <Link to="mailto:Hr@darshanprime.com" className='text-white no-underline '>
                       <IoMdMail/><p className='text-white ml-5 -mt-5'>  Hr@darshanprime.com</p></Link>
                     </p>
-                  <div className='space-x-4'>
-                  <Link to="https://www.instagram.com/darshan_prime_agency/" className="text-red-600 hover:text-blue-800 hidden md:inline-block" target="_blank">
+                  <div className='space-x-4 flex '>
+                  <Link to="https://www.instagram.com/darshan_prime_agency/" className="text-red-600 hover:text-blue-800  md:inline-block" target="_blank">
           <FaInstagram className="text-2xl" />
         </Link>
-        <Link to="https://www.facebook.com/profile.php?id=100095363170301" className="text-blue-500 hover:text-blue-600 hidden md:inline-block" target="_blank">
+        <Link to="https://www.facebook.com/profile.php?id=100095363170301" className="text-blue-500 hover:text-blue-600  md:inline-block" target="_blank">
           <FaFacebook className="text-2xl" />
         </Link>
-        <Link to="https://twitter.com/Darshan_Prime" className="text-blue-400 hover:text-blue-500 hidden md:inline-block" target="_blank">
+        <Link to="https://twitter.com/Darshan_Prime" className="text-blue-400 hover:text-blue-500  md:inline-block" target="_blank">
           <FaTwitterSquare className="text-2xl" />
         </Link>
-        <Link to="https://www.linkedin.com/company/98424029/admin/feed/posts/" className="text-blue hover:text-blue-500 hidden md:inline-block" target="_blank">
+        <Link to="https://www.linkedin.com/company/98424029/admin/feed/posts/" className="text-blue hover:text-blue-500  md:inline-block" target="_blank">
           <FaLinkedin className="text-2xl" />
         </Link>
-        <Link to="https://in.pinterest.com/Darshan_Prime_Agency/" className="text-red-600 hover:text-blue-500 hidden md:inline-block" target="_blank">
+        <Link to="https://in.pinterest.com/Darshan_Prime_Agency/" className="text-red-600 hover:text-blue-500  md:inline-block" target="_blank">
           <FaPinterestSquare className="text-2xl" />
         </Link>
                   </div>

@@ -8,9 +8,9 @@ const Milestone = () => {
   return (
     <div>
     <div className='city'>
-      <h1><b>LIC Milestone Agents</b></h1>
+      <h1 className='flex justify-center'><b>LIC Milestone Agents</b></h1>
       </div>
-      <img className="mt-2" src={img1}/>
+      <img className="mt-" src={img1} width="100%"/>
       <div class="container mx-auto p-4 rounded-lg">
       
       <h1 class="text-4xl font-bold mt-4">Bharath Parekh</h1>

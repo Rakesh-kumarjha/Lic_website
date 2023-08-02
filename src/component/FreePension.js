@@ -8,7 +8,7 @@ const FreePension = () => {
   return (
     <div>
     <div className='city'>
-    <h1><b>
+    <h1 className='flex justify-center'><b>
     LIC Agency as Free Pension</b></h1>
     </div>
     <img className="how mt-2" src={img1}/>
@@ -26,7 +26,7 @@ const FreePension = () => {
       </ul>
       <p class="text-gray-600">As a LIC agent, if you are working for 5years minimum, you will secure good amount renewal commission, you may treat it as pension. The amount of pension will depend on your choice or on your labour.
       </p><br></br>
-      <p class="text-gray-600">Take a Example ,Suppose  you are LIC Agent and selling  1 policy in 1 week minimum rs 50,00 monthly mode(yrly  collected Premium would be Rs 60,000).</p>
+      <p class="text-gray-600">Take a Example ,Suppose  you are LIC Agent and selling  1 policy in 1 week minimum rs 50,00 monthly mode(Orly  collected Premium would be Rs 60,000).</p>
       <img className="img2" src={img2} alt="img2"/>
       <p class="text-gray-600 mt-4">Note: We are considering only 48 weeks in a year in spite of 52 weeks. We all knows that LIC gives 35% of premium for 1st year,7.5% of Premium for 2nd and 3rd year thereafter 5% of premium  till policy holder pays to LIC of INDIA.</p>
       <p class="text-gray-600 mt-4">It shows whatever amount of premium, you will decide to sell in a week that will be your monthly income after 5years till the policy holder pay premium to LIC of India.</p>

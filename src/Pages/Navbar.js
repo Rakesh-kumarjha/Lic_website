@@ -50,13 +50,13 @@ const Navbar = () => {
   const handleAboutUsDropdownClick = () => {
     setIsAboutUsOpen(!isAboutUsOpen);
     setIsCityAgentCareerOpen(false);
-    window.scrollTo(0, 0);
+   
   };
 
   const handleCityAgentCareerDropdownClick = () => {
     setIsCityAgentCareerOpen(!isCityAgentCareerOpen);
     setIsAboutUsOpen(false);
-    window.scrollTo(0, 0);
+   
   
   };
 
@@ -176,7 +176,7 @@ const Navbar = () => {
                 Apply Online
               </Link>
               <Link to="/Procedure" className="text-black hover:text-indigo-200 no-underline" onClick={handleLinkClick}>
-                Proceduer
+                Procedure
               </Link>
               <Link to="/Achievers" className="text-black hover:text-indigo-200 no-underline" onClick={handleLinkClick}>
                 Achievers
@@ -255,6 +255,15 @@ const Navbar = () => {
                         onClick={handleLinkClick}
                       >
                         Lic agent work mechanism
+                      </Link>
+                    </p>
+                    <p className="px-3 py-1 w-auto">
+                      <Link
+                        to="/How"
+                        className="text-black hover:text-indigo-200 no-underline"
+                        onClick={handleLinkClick}
+                      >
+                       How to became LIC agent in Bangalore
                       </Link>
                     </p>
                   </div>

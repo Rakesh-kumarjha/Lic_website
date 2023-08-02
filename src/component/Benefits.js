@@ -1,6 +1,13 @@
 import React from 'react'
 import Img from "../Images/Benefits.webp"
+import {
+  Carousel,
+  initTE,
+} from "tw-elements";
+import AutoPlayCarousel from "./AutoPlayCarousel"
+
 const Benefits = () => {
+  initTE({ Carousel });
   return (
     <div>
     <div>
@@ -20,7 +27,7 @@ const Benefits = () => {
               <li>Win an entry chance in insurance field with/without formal education</li>
               <li>Unlimited income compensating your work in the form of commission payable monthly/bimonthly</li>
               <li>Gratuity up to 2lakh</li>
-              <li>Mediclaim Rs 50000-200000 depending on class of agent</li>
+              <li>Medicaid Rs 50000-200000 depending on class of agent</li>
               <li>Group Insurance</li>
               <li>Foreign trips sponsored by LIC</li>
               <li>International appreciation and acclaim for your performance</li>
@@ -42,7 +49,12 @@ const Benefits = () => {
             </div>
           </div>
         </div>
-      
+      <div>
+        <h4 className='flex justify-center'><b>PHOTO GALLERY</b></h4>
+        <div>
+       <AutoPlayCarousel/>
+        </div>
+      </div>
     </div>
   )
 }

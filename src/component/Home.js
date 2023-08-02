@@ -12,6 +12,19 @@ const Home = () => {
     <div>
       
       <Carousels/>
+{/* <div>
+<div>
+  <h2 className='flex justify-center pt-10'>LIC’s Start–Up Opportunity </h2>
+</div>
+<div className="">
+<p>It is an Exclusive Career opportunity provided by LIC of India to Fresh Graduates, Post Graduates and MBAs to become an Entrepreneur.
+</p>
+
+</div>
+
+</div> */}
+
+
 <div className='Contaier'>
   <h2 className='items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 pt-20'>About us</h2>
 </div>
@@ -31,7 +44,9 @@ const Home = () => {
                 <h3 className='flex justify-center'> Join our Team</h3>
                   <p className='flex justify-center'> Start your career as LIC advisor</p>
                   <p></p>
-                  <button class="button "><span><Link href="tel:xxxxxxxxxx" className='text-black flex justify-center'>Call Now</Link> </span></button>
+                  <button class="button "><span><Link href="tel:9108166064" className='text-black flex justify-center'>Call Now</Link> </span></button>
+
+                  <button class="button "><span><Link href="tel:8095882225" className='text-black flex justify-center'>Call Now</Link> </span></button>
                 </div>
               </div>
             </div>

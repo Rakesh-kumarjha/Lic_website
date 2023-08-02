@@ -9,7 +9,7 @@ const Who = () => {
   return (
     <div>
       <div className='city'>
-      <h1><b>Who Can Join LIC as an Agent in Bengaluru</b></h1>
+      <h1 className='flex justify-center'><b>Who Can Join LIC as an Agent in Bengaluru</b></h1>
       </div>
       <img className='mt-2' src={img}/>
       <div class="container mx-auto p-4 rounded-lg">

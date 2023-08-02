@@ -7,9 +7,9 @@ const Working = () => {
   return (
     <div>
     <div className='city'>
-    <h1><b>LIC Agent Work Mechanism</b></h1>
+    <h1 className='flex justify-center'><b>LIC Agent Work Mechanism</b></h1>
     </div>
-    <img className='mt-2' src={img1}/>
+    <img className='' src={img1} width="100%"/>
     <div class="container mx-auto p-4 rounded-lg">
     
     <h1 class="text-3xl font-bold mb-4">LIC Agent Work Mechanism</h1>
@@ -20,11 +20,11 @@ const Working = () => {
     <p className='mb-4'>Are you able to do this LIC Agent Job? Or it is below your level</p>
     <img src={img}/>
     <p className=' mt-4 mb-4'>Lets understand this fact.</p>
-    <p className='mb-4'>Mr ‘X’ should buy Insurance but why ? because he needs Saving,Pention,Tax Benefits Etc.</p>
+    <p className='mb-4'>Mr ‘X’ should buy Insurance but why ? because he needs Saving,Pension,Tax Benefits Etc.</p>
     <p className='mb-4'>Then Mr ‘X’ have lots of options available , he may park his money into Bank,Equity Market,Real estate etc.</p>
     <p className='mb-4'>But there is No Life Risk Cover would be there.</p>
-    <p className='mb-4'>So Mr’X’ will go for either LIC Of India or any Pvt Organisation.</p>
-    <p className='mb-4'>Obviously  Mr ‘X’ will take LIC Insurance product, because it is Govt flavoured Org.</p>
+    <p className='mb-4'>So Mr’X’ will go for either LIC Of India or any Pvt Organization.</p>
+    <p className='mb-4'>Obviously  Mr ‘X’ will take LIC Insurance product, because it is Government Flavoured Organization.</p>
     <p className='mb-4'>In LIC of India ,only LIC Agent can sell LIC Policy .So its compulsory to Mr ‘X” to contact LIC agent for LIC policy.</p>
     <hr></hr>
        <h1 class="text-1xl font-bold mb-4">Like this:</h1>

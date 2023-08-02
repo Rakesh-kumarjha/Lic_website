@@ -24,7 +24,7 @@ const Apply_Online = () => {
   return (
     <div>
     <div className='city'>
-    <h1><b>Apply Online for LIC Agency in Bangalore</b></h1>
+    <h1 className='flex justify-center'><b>Apply Online for LIC Agency in Bangalore</b></h1>
     </div>
     <div class="container mx-auto p-4 rounded-lg">
     <h1 class="text-1sm font-semibold mb-6">Apply Online for LIC Agency</h1>

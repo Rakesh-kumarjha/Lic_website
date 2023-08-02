@@ -9,10 +9,10 @@ const Aboutus = () => {
     </div>
     <div class="container mx-auto p-4 rounded-lg">
     <h1 class="text-3xl font-bold mb-5 mt-6">About Me and my Team</h1>
-        <p class="text-gray-600 mb-5 ">Its a easy task to be LIC agent but hard to procure business in Mumbai. Role of my team will help you to reach the professional goal.</p>
+        <p class="text-gray-600 mb-5 ">Its a easy task to be LIC agent but hard to procure business in Bangalore. Role of my team will help you to reach the professional goal.</p>
         <h1 class="text-2xl font-semibold mb-4">Why you should be LIC agent and be our team mates?
         </h1>
-        <p className=' mb-4'>I,Myself Avinash Singh associated with LIC of India as a Development Officer since last 10years.</p>
+        <p className=' mb-4'>I,Myself Umesh B B associated with LIC of India as a Development Officer since last 10years.</p>
         <p className=' mb-4'> My job is my passion to achieve success and success meant for me to achieve financial goals as well as professional recognition.</p>
         <p className=' mb-4'>My whole experience belongs to consulting with the successful  individuals in the
 industry.</p>

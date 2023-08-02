@@ -5,7 +5,7 @@ const Licagent = () => {
   return (
     <div>
     <div className='city'>
-    <h1><b>LIC Agent in Bangalore</b></h1>
+    <h1 className='flex justify-center'><b>LIC Agent in Bangalore</b></h1>
     </div>
     <div class="container mx-auto p-4 rounded-lg">
     <hr></hr>

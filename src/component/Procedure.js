@@ -38,13 +38,14 @@ const Procedure = () => {
       <div class="card-body">
        
         <h4>Pre-Requisites</h4>
-       
-        <li>Study Material-Free</li>
-       <li>Exam Fee (RS 503/-)</li>
-       <li>Book convenient slots for</li>
-       <li>IRDA exam(1 hour)</li>
+       <ul>
+        <li>150 Registration Fees.</li>
+       <li>150 Online Training Fees. </li>
+       <li>500 IRDA Examination Fee.</li>
+       <li>200 for Study material</li>
+       <li>Total:  1000    </li>
        <li>Min pass mark (18/50)</li>
-      
+       </ul>
       </div>
     </div>
     <div class="card">
@@ -53,10 +54,16 @@ const Procedure = () => {
       </div>
       <div class="card-body">
       
-        <h4>Post Exam</h4>
-        <p>
-             On successful completion of exam  you receive Appointment letter and  IRDA license and you start your dream career
-        </p>
+        <h4>Selection Process</h4>
+        <p className='flex text-justify'>
+        Fill up the application form at end of seminar or apply online on www.licguru.in
+       
+        Appear for Personal Interview.
+        Appear for Aptitude Test.
+       After selection you have to undergo Induction Training once in a week spread over one month and complete assignments given.
+        Passing of IRDA Examination.
+        Issue of Appointment Letter By LIC of India.
+        You will be attached to LIC of India Bhandup (w) Branch Mumbai.</p>
         {/* <div class="user">
           <img src="https://3.bp.blogspot.com/--sCpJJGYWEA/W2P4C51CYSI/AAAAAAAAQcI/LR4U_--Wf1E3wz7RLZtmwBPObm_ky9tQQCLcBGAs/s1600/beautiful-indian-women-photos-1.jpg" alt="" />
           <div class="user-info">
